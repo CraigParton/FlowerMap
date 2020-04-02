@@ -1,0 +1,17 @@
+name: FlowerMap
+version: 1.15.2.1
+description: Maps out flower locations in a flower forest
+author: CraigParton
+main: com.trinityminecraft.flowermap.FlowerMap
+api-version: 1.15
+
+commands:
+  flowers:
+    description: Display a flower generation map for this location. Only works in Flower Forest biomes.
+    permission: trinity.command.flowers
+    permission-message: You do not have permission to use this command.
+    usage: /flowers
+
+permissions:
+  trinity.command.flowers:
+    default: true
